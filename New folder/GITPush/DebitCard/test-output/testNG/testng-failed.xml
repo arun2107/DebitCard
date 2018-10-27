@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNG]">
+  <test thread-count="5" name="testnG(failed)" parallel="classes">
+    <groups>
+      <run>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ZoomCarBasic.underStandingTestNG">
+        <methods>
+          <include name="Cookies"/>
+          <include name="OpeningBrowser"/>
+          <include name="Cookies2"/>
+          <include name="Cookiesclose2"/>
+          <include name="Reportadding"/>
+          <include name="UseridGeneration4"/>
+          <include name="UseridGeneration41"/>
+          <include name="FlightBooking"/>
+          <include name="Cookiesclose"/>
+          <include name="FlightCancel"/>
+          <include name="UseridGeneration"/>
+          <include name="UseridGeneration3"/>
+        </methods>
+      </class> <!-- ZoomCarBasic.underStandingTestNG -->
+      <class name="ZoomCarBasic.TestNG2">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeclass1"/>
+          <include name="afterClass1"/>
+        </methods>
+      </class> <!-- ZoomCarBasic.TestNG2 -->
+      <class name="ZoomCarBasic.TestNGGroups">
+        <methods>
+          <include name="afterallclass"/>
+          <include name="smoke1"/>
+          <include name="beforealltest"/>
+          <include name="smoke2"/>
+          <include name="sanity1"/>
+        </methods>
+      </class> <!-- ZoomCarBasic.TestNGGroups -->
+      <class name="ZoomCarBasic.TC_001">
+        <methods>
+          <include name="CarSelect"/>
+          <include name="LaunchURL"/>
+          <include name="nextclick"/>
+          <include name="Launchapp"/>
+          <include name="DatePicker"/>
+          <include name="WonderfulJourneyClick"/>
+        </methods>
+      </class> <!-- ZoomCarBasic.TC_001 -->
+    </classes>
+  </test> <!-- testnG(failed) -->
+</suite> <!-- Failed suite [testNG] -->

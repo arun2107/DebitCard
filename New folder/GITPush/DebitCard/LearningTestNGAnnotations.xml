@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ZoomCarSuite">
+<test name="ZoomCar" thread-count= "5">
+<classes>
+<class name="ZoomCarBasic.underStandingTestNG">
+</class>
+</classes>
+</test>
+</suite>

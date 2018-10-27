@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZoomCarSuite]">
+  <test thread-count="5" name="ZoomCar(failed)">
+    <classes>
+      <class name="ZoomCarBasic.TC_001">
+        <methods>
+          <include name="CarSelect"/>
+          <include name="nextclick"/>
+          <include name="DatePicker"/>
+          <include name="WonderfulJourneyClick"/>
+        </methods>
+      </class> <!-- ZoomCarBasic.TC_001 -->
+    </classes>
+  </test> <!-- ZoomCar(failed) -->
+</suite> <!-- Failed suite [ZoomCarSuite] -->
